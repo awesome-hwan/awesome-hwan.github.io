@@ -42,7 +42,7 @@ live-server #실행명령어
 
 모듈은 관련된 컴포넌트나 서비스, 디렉티브 등을 편하게 사용하기 위해 하나로 모은 것이다.  
 
-```js
+```ts
 @NgModule({
   imports: [BrowserModule],  // 1
   declarations: [HelloWorldComponent], // 2
@@ -67,7 +67,7 @@ export class AppModule { }
 
 컴포넌트는 클래스에 @Component 어노테이션을 붙여서 선언한다.  
 
-```js
+```ts
 @Component ({
   selector: 'app-component',
   template: '<h1>Hello !</h1>'
