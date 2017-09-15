@@ -18,7 +18,7 @@ share: true
     - [a.모듈(Module)](a-모듈-Module-)
     - [b.컴포넌트(Component)](b-컴포넌트-Component-)  
     - [c.디렉티브(Directive)](c-디렉티브-Directive-)
-
+    - [d.데이터 바인딩 기초](d-데이터-바인딩-기초)
 ---
 > Why Angular?  
 
@@ -103,4 +103,10 @@ class LogDirective{
 
 input[log-directive]셀렉터로 선택된 엘리먼트에 입력 이벤트 ('(input)')가 발생하면 onInput() 이벤트가 실행되고, 이떄 $event 객체가 인자로 전달된다.  
 
-> <input type="text" log-directive/> 와 같이 설정한다. 
+> <input type="text" log-directive/> 와 같이 설정한다.  
+
+## d.데이터 바인딩 기초   
+
+**컴포넌트** 의 프로퍼티 값을 템플릿에 표시하려면 이중 괄호를 사용한다.  
+
+> <h1>Hello {{ name }} </h1>
