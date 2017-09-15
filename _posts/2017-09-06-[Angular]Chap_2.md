@@ -17,7 +17,7 @@ share: true
 2. [Angular 구성요소](#Angular-구성요소)  
     - [a.모듈(Module)](a-모듈-Module-)
     - [b.컴포넌트(Component)](b-컴포넌트-Component-)  
-
+    - [c.디렉티브(Directive)](c-디렉티브-Directive-)
 
 ---
 > Why Angular?  
@@ -76,3 +76,31 @@ class HelloComponent {}
 ```
 
 컴포넌트가 위치할 selector와 렌더링될 내용인 template(또는 templateUrl) 항목은 @Component 어노테이션 안에 반드시 선언되어야 한다.  
+
+## c.디렉티브(Directive)  
+
+디렉티브를 사용하면 HTML 엘리먼트에 사용자가 원하는 동작을 추가할 수 있으며, @Directive 어노테이션을 클래스에 붙여서 선언한다.
+
+```ts
+@Directive({
+  selector: 'input[log-directive]', // 1
+  host: {
+    '(input)': 'onInput($event)' // 2
+  }
+})
+class LogDirective{
+  onInput(event) { // 3  
+    console.log(event.target.value);
+  }
+}
+```
+
+`1. 이 셀렉터가 선택하는 HTML 엘리먼트는 log-directive 어트리뷰트가 있는 input 엘리먼트이다.`
+`2. 호스트 엘리먼트에 입력 이벤트를 연결한다. 이 디렉티브에서 호스트 엘리먼트는 <input> 엘리먼트다.`
+`3. <input> 엘리먼트의 값을 콘솔로 출력하는 핸들러`  
+
+이벤트 <==> 이벤트 함수 , 이벤트와 이벤트 함수를 연결하려면 이벤트명을 괄호로 감싸면 된다.  
+
+input[log-directive]셀렉터로 선택된 엘리먼트에 입력 이벤트 ('(input)')가 발생하면 onInput() 이벤트가 실행되고, 이떄 $event 객체가 인자로 전달된다.  
+
+> <input type="text" log-directive/> 와 같이 설정한다. 
