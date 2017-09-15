@@ -103,10 +103,21 @@ class LogDirective{
 
 input[log-directive]셀렉터로 선택된 엘리먼트에 입력 이벤트 ('(input)')가 발생하면 onInput() 이벤트가 실행되고, 이떄 $event 객체가 인자로 전달된다.  
 
-> <input type="text" log-directive/> 와 같이 설정한다.  
+`<input type="text" log-directive/> 와 같이 설정한다.`  
 
 ## d.데이터 바인딩 기초   
 
 **컴포넌트** 의 프로퍼티 값을 템플릿에 표시하려면 이중 괄호를 사용한다.  
+```ts
+<h1>Hello {{ name }} </h1>
+```  
 
-> <h1>Hello {{ name }} </h1>
+**컴포넌트 속성** 으로 바인딩 하려면 대괄호를 사용한다.  
+```ts
+<span [hidden]="isValid">The field is required</span>    
+```
+
+**이벤트 <==> 이벤트 핸들러** 연결하려면 괄호를 사용한다.  
+```ts
+<button (click)="placeBid()"> Place Bid</button>
+```
