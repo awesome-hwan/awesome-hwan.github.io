@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 최초작성일: 17.09.06  
-최종작성일: 17.09.14  
+최종작성일: 17.09.16  
 교재: 타입스크립트로 배우는 앵귤러 프레임워크 `한장현|옮김`
 
 # 목차  
@@ -16,9 +16,10 @@ share: true
 1. [Angular](#Angular)  
 2. [Angular 구성요소](#Angular-구성요소)  
     - [a.모듈(Module)](a-모듈-Module-)
-    - [b.컴포넌트(Component)](b-컴포넌트-Component-)  
+    - [b.컴포넌트(Component)](b-컴포넌트(Component))  
     - [c.디렉티브(Directive)](c-디렉티브-Directive-)
-    - [d.데이터 바인딩 기초](d-데이터-바인딩-기초)
+    - [d.데이터 바인딩 기초](d-데이터-바인딩-기초)  
+
 ---
 > Why Angular?  
 
