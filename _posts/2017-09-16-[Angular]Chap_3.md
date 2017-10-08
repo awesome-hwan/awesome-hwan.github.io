@@ -2,7 +2,7 @@
 layout: post
 title: "[Angular] Chap_3"
 description: "Angular 라우터"
-date: 2017-09-16
+date: 2017-10-08
 tags: [Angular Chap_3, 라우터]
 comments: true
 share: true
