@@ -33,20 +33,20 @@ share: true
 
 #### 1.1.1 이벤트 바인딩  
 
-```ng
+```js
 <button (click)="onClickEvent()">Get Products</button>  
 <input (input)="onInputEvent()">
 ```
 
 #### 1.1.2 프로퍼티 바인딩  
 
-```ng
+```js
 <input [value]="myComponentProperty">
 ```
 
 #### 1.1.3 양방향 바인딩  
 
-```ng
+```js
 <input [value]="myComponentProperty"
   (input)="onInputEvent($event)">
 ```
@@ -54,8 +54,6 @@ share: true
 Angular에서는 좀 간단한 `[()]` 표기법과 NgModule 디렉티브를 제공한다.  
 디렉티브 이름은 NgModel이지만 템플릿에서는 첫 글자를 소문자로 쓰는 것에 주의하자.  
 
-```ng
+```js
 <input [(ngModel)]="myComponentProperty">
 ```
-
-#### 1.1.1 이벤트 바인딩  
