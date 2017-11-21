@@ -3,7 +3,7 @@ layout: post
 title: "[GDG Korea]CSS와 BEM"
 description: "[GDG Korea]CSS와 BEM"
 date: 2017-11-19
-tags: [[GDG Korea] CSS와 BEM
+tags: [GDG Korea CSS와 BEM]
 comments: true
 share: false
 ---

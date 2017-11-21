@@ -3,7 +3,7 @@ layout: post
 title: "[GDG Korea]Why Typescript with Clean Architecture"
 description: "[GDG Korea]Why Typescript with Clean Architecture"
 date: 2017-11-19
-tags: [[GDG Korea]Why Typescript with Clean Architecture
+tags: [GDG Korea Why Typescript with Clean Architecture]
 comments: true
 share: false
 ---
