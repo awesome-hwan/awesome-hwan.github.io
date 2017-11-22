@@ -39,5 +39,5 @@ export class AppComponent {
 
 의존성이 있다. 
 
-`Focus, 의존성을 생각하며 진행.`
+`Focus, 의존성을 생각하며 진행.`  
 
