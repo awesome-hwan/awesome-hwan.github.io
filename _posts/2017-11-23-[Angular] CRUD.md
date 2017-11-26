@@ -2,7 +2,7 @@
 layout: post
 title: "[Angular]CRUD"
 description: "CURD"
-date: 2017-11-22
+date: 2017-11-23
 tags: [angular CURD]
 comments: true
 share: true
