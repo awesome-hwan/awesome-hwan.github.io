@@ -13,7 +13,7 @@ share: true
 92년~18년 진지하게 몰입해 본 적 없다.
 여태 그래왔고 앞으로는 그러기 싫다.
 
-한 가지 일을 `숙력`시키고싶다.
+한 가지 일을 `숙련`시키고싶다.
 
 컴퓨팅 능력 중 하나가 Angualr이다.
 
@@ -55,7 +55,7 @@ app.component.css- 구성 요소의 비공개 CSS 스타일
 title = 'Tour of Heroes';
 ```
 
-```html
+```ts
 <--app.component.html-->
 <h1>{{title}}</h1>
 ```
