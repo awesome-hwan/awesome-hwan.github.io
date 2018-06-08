@@ -19,7 +19,43 @@ share: true
 
 # 목차
 
+1. Applcation Shell
 
 
 
+2.
 
+
+## Applcation Shell
+
+> install CLI
+
+```
+npm install -g @angular/cli #install CLI
+```
+
+> Serve the application
+
+```
+ng serve --open
+```
+
+> Change the application title
+
+`src/app`폴더 확인
+
+app.component.ts- TypeScript로 작성된 구성 요소 클래스 코드
+app.component.html- HTML로 작성된 구성 요소 템플릿
+app.component.css- 구성 요소의 비공개 CSS 스타일
+
+
+
+```ts
+//app.component.ts
+title = 'Tour of Heroes';
+```
+
+```html
+<--app.component.html-->
+<h1>{{title}}</h1>
+```
