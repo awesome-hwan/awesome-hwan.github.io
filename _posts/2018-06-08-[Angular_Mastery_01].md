@@ -20,18 +20,18 @@ share: true
 # 목차
 
 1. [Applcation Shell](#Applcation-Shell)
-2.
+2. [The Hero Editor](#The Hero Editor)  
 
 
 ## Applcation Shell
 
 ### 요약
 
-``
+```
 1. Angular CLI를 사용하여 초기 응용 프로그램 구조를 만들 수 있다.
 2. Angular 구성 요소는 데이터를 표시한다는 사실을 알게되었습니다.
 3. 보간의 이중 중괄호를 사용하여 앱 제목을 표시했습니다.
-``
+```
 
 > install CLI
 
@@ -63,4 +63,18 @@ title = 'Tour of Heroes';
 ```ts
 <--app.component.html-->
 <h1>{{title}}</h1>
+```
+
+## The Hero Editor   
+
+### 요약  
+
+``sh
+1. CLI를 사용하여 두 번째 HeroesComponent를 만들었습니다.
+2. HeroesComponent를 AppComponent 셸에 추가하여 표시했습니다.
+3. UppercasePipe를 적용하여 이름의 서식을 지정했습니다.
+4. ngModel 지정 문을 사용하여 양방향 데이터 바인딩을 사용했습니다.
+5. 당신은 AppModule에 대해 배웠습니다.
+6. AppModule에 FormsModule을 가져 와서 Angular가 ngModel 지시어를 인식하고 적용하도록했습니다.
+7. AppModule에서 컴포넌트 선언의 중요성을 배웠고 CLI가이를 선언했습니다.
 ```
