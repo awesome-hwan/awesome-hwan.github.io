@@ -19,14 +19,19 @@ share: true
 
 # 목차
 
-1. Applcation Shell
-
-
-
+1. [Applcation Shell](#Applcation-Shell)
 2.
 
 
 ## Applcation Shell
+
+### 요약
+
+``
+1. Angular CLI를 사용하여 초기 응용 프로그램 구조를 만들 수 있다.
+2. Angular 구성 요소는 데이터를 표시한다는 사실을 알게되었습니다.
+3. 보간의 이중 중괄호를 사용하여 앱 제목을 표시했습니다.
+``
 
 > install CLI
 
