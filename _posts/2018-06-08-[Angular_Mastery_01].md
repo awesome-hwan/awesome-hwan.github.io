@@ -69,7 +69,7 @@ title = 'Tour of Heroes';
 
 ### 요약  
 
-``sh
+```sh
 1. CLI를 사용하여 두 번째 HeroesComponent를 만들었습니다.
 2. HeroesComponent를 AppComponent 셸에 추가하여 표시했습니다.
 3. UppercasePipe를 적용하여 이름의 서식을 지정했습니다.
@@ -77,4 +77,75 @@ title = 'Tour of Heroes';
 5. 당신은 AppModule에 대해 배웠습니다.
 6. AppModule에 FormsModule을 가져 와서 Angular가 ngModel 지시어를 인식하고 적용하도록했습니다.
 7. AppModule에서 컴포넌트 선언의 중요성을 배웠고 CLI가이를 선언했습니다.
+```
+
+> Create the heroes component  
+
+```
+ng generate component heroes 
+```
+
+`src/app/heroes/`에 폴더가 생성된다.  
+
+```ts
+//heroes.component.ts
+//class내부
+
+hero = 'Windstorm';
+```
+ 
+```angular2html
+<!--heroes.component.html-->
+
+{{hero}}
+```
+
+위 작성내용을 보려면
+
+이래 내용을 작성해야한다. 
+
+```angular2html
+<!--src/app/app.component.html-->
+
+<app-heroes></app-heroes>
+```
+
+> Create a Hero class  
+
+`src/app`에 생성한다.
+
+```js
+// src/app/hero.ts
+
+export class Hero {
+    id: number;
+    name: string;
+}
+
+```
+
+```ts
+//src/app/heroes/heroes.component.ts
+
+import { Component, OnInit } from '@angular/core';
+import { Hero } from '../hero';
+
+@Component({
+  selector: 'app-heroes',
+  templateUrl: './heroes.component.html',
+  styleUrls: ['./heroes.component.css']
+})
+export class HeroesComponent implements OnInit {
+  hero: Hero = {
+    id: 1,
+    name: 'Windstorm'
+  };
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+
 ```
