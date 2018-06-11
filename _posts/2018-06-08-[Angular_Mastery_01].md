@@ -149,3 +149,102 @@ export class HeroesComponent implements OnInit {
 }
 
 ```
+
+> Show the hero object  
+
+hero 배열안의 값을 반환한다.
+
+```angular2html
+<!--heroes.component.html-->
+
+<h2>{{ hero.name }} Details</h2>
+<div><span>id: </span>{{hero.id}}</div>
+<div><span>name: </span>{{hero.name}}</div>
+ 
+```
+
+> Format with the UppercasePipe  
+
+pipe의 내부함수를 사용할 수 있다.  
+
+```angular2html
+<!--heroes.component.html-->
+
+<h2>{{ hero.name | uppercase }} Details</h2>
+<div><span>id: </span>{{hero.id}}</div>
+<div><span>name: </span>{{hero.name}}</div>
+
+```
+
+> Two way binding  
+
+[(ngModel)]은 angular binding 문법이다.  
+
+```angular2html
+<!--src/app/heroes/heroes.component.html-->
+
+<div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name">
+    </label>
+</div>
+```
+
+> Creat mock List  
+
+`src/app`의 영웅 리스트를 만든다.  
+
+```ts 
+//src/app/mock-heroes.ts
+
+import { Hero } from './hero';
+
+export const HEROES: Hero[] = [
+    { id: 11, name: 'Mr. Nice' },
+    { id: 12, name: 'Narco' },
+    { id: 13, name: 'Bombasto' },
+    { id: 14, name: 'Celeritas' },
+    { id: 15, name: 'Magneta' },
+    { id: 16, name: 'RubberMan' },
+    { id: 17, name: 'Dynama' },
+    { id: 18, name: 'Dr IQ' },
+    { id: 19, name: 'Magma' },
+    { id: 20, name: 'Tornado' }      
+];
+
+```
+
+
+변수 입력. 
+```ts
+// src/app/heroes/heroes.component.ts 
+
+import { HEROES } from '../mock-heroes';
+
+heroes = HEROES;
+```
+
+`<li *ngFor="let hero of heroes">`
+
+
+> Add the click event handler  
+
+```ts
+src/app/heroes/heroes.component.ts  
+
+selectedHero: Hero;  
+
+onSelect(hero: Hero): void {
+ this.selectedHero = hero;
+}
+```
+
+`hero`를 `seletedHero`로 이름을 변경한다.  
+
+> Style the selected hero
+  
+```angular2html
+<!--heroes.component.html (toggle the 'selected' CSS class)-->
+
+[class.selected]="hero === seletedHero"
+```
