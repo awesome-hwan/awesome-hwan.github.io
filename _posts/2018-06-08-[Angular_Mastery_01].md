@@ -20,8 +20,9 @@ share: true
 # 목차
 
 1. [Applcation Shell](#Applcation-Shell)
-2. [The Hero Editor](#The Hero Editor)  
-
+2. [The Hero Editor](#The-Hero-Editor)  
+3. [Displaying a List](#Displaying-a-List)  
+4. [Master/Detail Components](#Master/Detail-Components)  
 
 ## Applcation Shell
 
@@ -109,6 +110,8 @@ hero = 'Windstorm';
 
 <app-heroes></app-heroes>
 ```
+
+## Displaying a List   
 
 > Create a Hero class  
 
@@ -247,4 +250,40 @@ onSelect(hero: Hero): void {
 <!--heroes.component.html (toggle the 'selected' CSS class)-->
 
 [class.selected]="hero === seletedHero"
+```
+
+## Master/Detail Components  
+
+> Make the HeroDetailComponent  
+
+detail component를 하나 생성해 재사용하기 쉬운 한 부분을 넣자  
+`ng generate component hero-detail`  
+
+```angular2html
+<!--src/app/hero-detail/hero-detail.component.html-->
+
+<div *ngIf="hero">
+
+  <h2>{{ hero.name | uppercase }} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name"/>
+    </label>
+  </div>
+
+</div>
+
+<!--src/app/hero-detail/heroes.component.html-->
+
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
+
+```
+
+```ts
+// src/app/hero-detail/hero-detail.component.ts
+
+import { Component, OnInit, Input } from '@angular/core';
+
+@Input() hero: Hero;
 ```
