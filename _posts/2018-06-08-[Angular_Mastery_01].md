@@ -287,3 +287,6 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Input() hero: Hero;
 ```
+
+> 피드백  
+
