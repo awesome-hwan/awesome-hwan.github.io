@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8be4af1-e084-4955-bc18-fe6cf884f55b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-08-02-[Scss] 입문 &amp; 응용.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-19-[피아노 레슨].md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-19-[피아노 레슨].md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-[JS] This.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="285">
+              <first_editor relative-caret-position="375">
                 <caret line="25" selection-start-line="25" selection-end-line="25" />
               </first_editor>
               <second_editor />
@@ -29,12 +29,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-08-02-[Scss] 입문 &amp; 응용.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-08-02-[Scss] 입문 &amp; 응용.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-[Scss] 입문 &amp; 응용.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="465">
+              <first_editor relative-caret-position="405">
                 <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-05-19-[피아노 레슨].md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-19-[피아노 레슨].md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="401">
+                <caret line="279" lean-forward="true" selection-start-line="279" selection-end-line="279" />
               </first_editor>
               <second_editor />
             </state>
@@ -65,8 +77,8 @@
         <option value="$PROJECT_DIR$/_posts/2018-06-16-[피아노 레슨__03].md" />
         <option value="$PROJECT_DIR$/_posts/2018-05-19-[피아노 레슨__01].md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-02-[JS] This.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-05-19-[피아노 레슨].md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-02-[Scss] 입문 &amp; 응용.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-19-[피아노 레슨].md" />
       </list>
     </option>
   </component>
@@ -79,7 +91,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -92,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,7 +121,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,12 +176,13 @@
       <workItem from="1533558143218" duration="1070000" />
       <workItem from="1533798060630" duration="1853000" />
       <workItem from="1534485745589" duration="423000" />
-      <workItem from="1534771669841" duration="1482000" />
+      <workItem from="1534771669841" duration="1681000" />
+      <workItem from="1535288000329" duration="202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41870000" />
+    <option name="totallyTimeSpent" value="42271000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -181,24 +194,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16962843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16918188" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="270" height="600" id="Documentation" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24275862" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24264705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="270" height="600" id="Documentation" order="3" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -237,6 +250,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-[JS] This.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="375">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-[Scss] 입문 &amp; 응용.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1230">
+            <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-[JS] This.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -595,25 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-19-[피아노 레슨].md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="54" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="355">
-            <caret line="268" column="44" lean-forward="true" selection-start-line="268" selection-start-column="44" selection-end-line="268" selection-end-column="44" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-[JS] This.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="285">
+          <first_editor relative-caret-position="375">
             <caret line="25" selection-start-line="25" selection-end-line="25" />
           </first_editor>
           <second_editor />
@@ -623,8 +641,23 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-02-[Scss] 입문 &amp; 응용.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="465">
+          <first_editor relative-caret-position="405">
             <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-19-[피아노 레슨].md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="401">
+            <caret line="279" lean-forward="true" selection-start-line="279" selection-end-line="279" />
           </first_editor>
           <second_editor />
         </state>
